@@ -1,0 +1,23 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "parcial desarrollo web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres100r/parcial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres100r/parcial/issues"
+  },
+  "homepage": "https://github.com/andres100r/parcial#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.1"
+  }
+}
