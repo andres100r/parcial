@@ -1,20 +1,10 @@
-const pandemia = [{
-    id : "",
-    nombre: "",
-    sintomas: "",
-    recomendaciones: ""
-    
-   }]
-   module.exports.pandemia = pandemia;
-
-/*
-   const pandemia = [{
-    id : "",
-    nombre: "",
-    sintomas: "",
-    recomendaciones: ""
+const pandemia = [
+    {
+    "idPandemia" : "",
+    "nombre" : "",
+    "sintomas": "",
+    "recomendaciones": "",
+    "en_curso": "",
+   
    }]
    module.exports = pandemia;
-
-
-   */
