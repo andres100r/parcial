@@ -52,18 +52,10 @@ appServer.post ('/updatePais/:id' , (req, res)=>{
   myPais.push(usuario);
 });
 
- //Consultar Information por Id de pandemia
 
-appServer.get('/readInformation/:id', (req, res)=>{         
-    
-  var index = myinformation.filter(function(idInformation){
-      return idInformation.idPandemia === req.params.id ;
-  });
-  res.json (index);
-});
 
 //Consultar datos generales
-appServer.get ('/readInformation/:id' , (req, res)=>{    
+appServer.get ('/consultarInformacion/:id' , (req, res)=>{    
   
   var index = myinformacion.findIndex(function(idPandemia){
       return idPandemia.idPandemia === req.params.id;
