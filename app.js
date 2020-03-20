@@ -23,20 +23,9 @@ appServer.use(express.json());
      res.send('Post pandemia add');
  });
 
- 
   
 
 appServer.put ('/putpandemia',
  (req, res) => {
  res.send ('THIS IS A PUT REQUEST');
  });
-
-
-
-
-
-
-
-
-
-
