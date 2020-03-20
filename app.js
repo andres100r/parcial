@@ -18,7 +18,7 @@ appServer.get ('/pandemia', (req, res)=>{
     res.json (pandemia);
   });
 //agregar pandemia
-   appServer.post ('/addpandemia' , (req, res)=>{
+   appServer.post ('/addPandemia' , (req, res)=>{
     const usuario = req.body;
     myPandemia.push(usuario);
    });
