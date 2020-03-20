@@ -91,7 +91,7 @@ appServer.get ('/readInformation/:id' , (req, res)=>{
 });
 
 //Curar un pais por id
-appServer.get ('/cureCountry' , (req, res)=>{    
+appServer.get ('/curarPais' , (req, res)=>{    
   var arrayPandemia = myInformacion.filter(function(idInformacion){
       return idInformacion.idPandemia === req.params.idP ;
   });
